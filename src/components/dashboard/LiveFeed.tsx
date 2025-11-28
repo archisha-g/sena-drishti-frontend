@@ -1,7 +1,7 @@
 import React from 'react';
 
 interface LiveFeedProps {
-  threatDetected: boolean;
+  threatDetected: boolean; 
   image?: string; // Base64 image string from WebSocket
 }
 
